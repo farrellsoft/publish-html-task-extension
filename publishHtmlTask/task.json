@@ -15,12 +15,20 @@
     "instanceNameFormat": "Echo $(samplestring)",
     "inputs": [
         {
-            "name": "samplestring",
+            "name": "artifactName",
             "type": "string",
-            "label": "Sample String",
+            "label": "Artifact Name",
             "defaultValue": "",
             "required": true,
-            "helpMarkDown": "A sample string"
+            "helpMarkDown": "The name of the artifact"
+        },
+        {
+            "name": "htmlFilePath",
+            "type": "string",
+            "label": "Html File Path",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "The path to the HTML file"
         }
     ],
     "execution": {
