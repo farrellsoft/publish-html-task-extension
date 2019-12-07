@@ -13,7 +13,7 @@ else
 {
     try {
         console.log('Adding attachment');
-        taskLib.addAttachment("Farrellsoft.html_artifact", "html_artifact", fileLocation);
+        taskLib.addAttachment("Farrellsoft.html_artifact", artifactName, fileLocation);
         taskLib.setResult(taskLib.TaskResult.Succeeded, "Complete");
     }
     catch (error) {
