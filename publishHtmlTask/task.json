@@ -10,7 +10,7 @@
     "version": {
         "Major": 1,
         "Minor": 2,
-        "Patch": 0
+        "Patch": 2
     },
     "visibility": [
         "Build",
@@ -28,7 +28,7 @@
         },
         {
             "name": "htmlFilePath",
-            "type": "string",
+            "type": "filePath",
             "label": "Html File Path",
             "defaultValue": "",
             "required": true,
@@ -37,7 +37,7 @@
     ],
     "execution": {
         "Node10": {
-            "target": "index.js"
+            "target": "dist/index.js"
         }
     }
 }

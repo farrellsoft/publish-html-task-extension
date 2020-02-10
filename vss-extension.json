@@ -2,14 +2,14 @@
     "manifestVersion": 1,
     "id": "publish-html-task",
     "name": "Publish HTML",
-    "version": "1.2.0",
+    "version": "1.2.2",
     "publisher": "Farrellsoft",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Publish and HTML document",
+    "description": "Publish an HTML document",
     "categories": [
         "Azure Pipelines"
     ],
