@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "publish-html-task",
     "name": "Publish HTML",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "publisher": "Farrellsoft",
     "targets": [
         {
