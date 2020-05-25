@@ -1,0 +1,43 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+    "id": "13f9d337-5ae6-4f96-9bc2-fe2b18a6319c",
+    "name": "publishHtml",
+    "friendlyName": "Publish HTML (dev)",
+    "description": "Publish an HTML file to DevOps Pipeline",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "Farrellsoft",
+    "version": {
+        "Major": 1,
+        "Minor": 2,
+        "Patch": 2
+    },
+    "visibility": [
+        "Build",
+        "Release"
+    ],
+    "instanceNameFormat": "Publish HTML",
+    "inputs": [
+        {
+            "name": "artifactName",
+            "type": "string",
+            "label": "Artifact Name",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "The name of the artifact"
+        },
+        {
+            "name": "htmlFilePath",
+            "type": "filePath",
+            "label": "Html File Path",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "The path to the HTML file"
+        }
+    ],
+    "execution": {
+        "Node10": {
+            "target": "dist/index.js"
+        }
+    }
+}
