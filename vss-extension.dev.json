@@ -1,0 +1,46 @@
+{
+    "manifestVersion": 1,
+    "id": "publish-html-task-dev",
+    "name": "Publish HTML (dev)",
+    "version": "1.2.2",
+    "publisher": "Farrellsoft",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Publish an HTML document",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/publish128.png"
+    },
+    "files": [
+        {
+            "path": "publishHtmlTask"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "publish-html-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "publishHtmlTask"
+            }
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/xximjasonxx/publish-html-task-extension"
+    },
+    "public": false
+}
