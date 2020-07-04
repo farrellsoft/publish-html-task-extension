@@ -42,5 +42,6 @@
         "type": "git",
         "uri": "https://github.com/xximjasonxx/publish-html-task-extension"
     },
-    "public": false
+    "public": false,
+    "scopes": [ "vso.build_execute" ]
 }
