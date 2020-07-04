@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
     "id": "13f9d337-5ae6-4f96-9bc2-fe2b18a6319c",
-    "name": "publishHtml",
+    "name": "publishHtml-dev",
     "friendlyName": "Publish HTML (dev)",
     "description": "Publish an HTML file to DevOps Pipeline",
     "helpMarkDown": "",
